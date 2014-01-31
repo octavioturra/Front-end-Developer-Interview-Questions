@@ -59,11 +59,16 @@ A maioria das perguntas foi retirada de uma _thread_ da [oksoclap](http://oksocl
 ### Questões específicas de HTML:
 
 * O que um `doctype` faz?
+  * - Define para o browser a versão do HTML utilizada (http://www.w3schools.com/tags/tag_doctype.asp)
 * Qual a diferença entre _standards mode_ e _quirks mode_?
+  * - _quirks mode_ emula o modelo despadronizado dos navegadores antigos, enquanto o _standards mode_ respeita as definições homologadas. Há, ainda, o padrão parcial padronizado, que possui algumas excessões ao _quirks mode_.(https://developer.mozilla.org/pt-BR/docs/Quirks_Mode_and_Standards_Mode)
 * Quais as limitações quando utilizamos páginas XHTML?
+  * - O XHTML é padronizado e, portanto, limita a utilização de atributos e tags que não sigam este padrão, bem como exige algumas práticas como o fechamento de todas as tags e a atribuição de valor em todos atributos.(http://pt.wikipedia.org/wiki/XHTML)
   * Existe algum problema em utilizar páginas como `application/xhtml+xml`?
+    * - Por ser um MIME type, é possível que alguns navegadores ou suas versões não reconheçam e, portanto, não interpretem o conteúdo do documento de maneira correta.(http://www.schillmania.com/content/entries/2004/10/24/application-xhtml+xml/)
 * Como você desenvolve uma página com conteúdo em múltiplos idiomas?
   * Que tipo de coisas que você deve tomar cuidado ao desenvolver um website multi-língua?
+    * - O _charset_ da página, acessibilidade através dos _language codes_, _font-family_ para o devido charset, largura e tamanho dos campos e espaços de texto para não quebrar o layout.(http://www.nomensa.com/blog/2010/7-tips-and-techniques-for-multi-lingual-website-accessibility/)
 * Quais são os benefícios em utilizar o atributo `data-`?
 * Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?
 * Descreva a diferença entre cookies, sessionStorage e localStorage.
